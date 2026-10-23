@@ -1,3 +1,4 @@
+from flask import Flask, render_template
 # ---------------------------------------------------------------
 #  Mon premier site Web avec Flask
 # ---------------------------------------------------------------
@@ -27,7 +28,7 @@ def accueil():
 
 @app.get("/presentation")
 def presentation():
-    return """
+    return render_template("presentation.html", prenom="AXE", nom="")
     <h1>AXE</h1>
     <p>Je suis étudiante en <strong>deuxieme année d'informatique</strong>.</p>
     <h2>Ce que j'aime</h2>
