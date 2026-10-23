@@ -29,7 +29,9 @@ def accueil():
 def presentation():
     return "Je m'appelle Léa et je suis étudiante en informatique."
 
-
+@app.get("/loisir")
+def presentation():
+    return "i like ......"
 
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
