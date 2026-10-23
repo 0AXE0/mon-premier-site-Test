@@ -44,8 +44,8 @@ def presentation():
     """
 
 
-@app.get("/loisir")
-def loisir():
+@app.get("/loisirs")
+def loisirs():
     return "i like ......"
 
 
