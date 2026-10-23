@@ -3,11 +3,11 @@ body {
     max-width: 700px;
     margin: 40px auto;
     background-color: #f4f6fb;
-    color: gold;
+    color: #FFD700;
 }
 
 h1 {
-    color: gold;
+    color: #FFD700;
 }
 
 nav a {
